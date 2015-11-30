@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!---TAGS GOOGLE--->
+        <title>Simple transition efect page</title>
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <meta name="author" content="Cairon M - caironm.go@gmail.com">
+
+        <style>
+          body {
+              background-color: linen;
+              color: #969696;
+          }
+          #wrapper {
+            display: none;
+          }
+        </style>
+    </head>
+    <body>
+      <div id="wrapper">
+        <h1>Simple transition efect page</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In euismod risus dignissim lectus porttitor vehicula. Morbi dapibus vitae sapien non tincidunt. Proin et suscipit velit.
+          Sed pharetra tincidunt arcu, nec venenatis lacus laoreet a. Suspendisse lacinia eu metus non accumsan. Vestibulum fermentum pellentesque tellus molestie pharetra.
+          Donec hendrerit lacus mattis quam dignissim molestie. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+          Pellentesque pharetra, eros ac tincidunt mollis, velit lacus egestas magna, eu placerat tortor eros nec ante. Donec in consectetur lorem.
+          Cras vulputate velit metus. Cras ut odio nec massa lacinia molestie. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut aliquam efficitur nibh sed egestas.</p>
+      </div>
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+      <script>
+      $(document).ready(function () {
+          $('#wrapper').fadeIn('slow');
+      });
+      </script>
+    </body>
+</html>
